@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Hammersmith+One&family=Parisienne&family=Suwannaphum:wght@900&display=swap');
+
+*{
+ font-family: 'Alkatra';
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+body{
+    background-image: url("https://i.postimg.cc/gdS1PGkm/1.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color:orangered;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:azure;
+    font-size: 16px;
+    margin-left: 35px;
+}
+
+
+.navbar a.active{
+    color: orangered;
+}
+.navbar a:hover{
+    color:orangered;
+}
+
+div{
+    display:inline-block;
+}
+
+.search button{
+    color:azure;
+    background: orangered;
+    cursor:pointer;
+    font-size: 17px;
+    padding: 5px;
+    margin-top: 6px;
+    margin-right: 14px;
+    border:none;
+    
+}
+.search input{
+    font-size: 17px;
+    padding: 5px;
+    margin-top: 6px;
+    border:2px solid orangered;
+    background: transparent;
+    color: whitesmoke;
+
+}
+.search input:focus{
+  outline:none;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:100vh;
+}
+.home-content{
+    max-width:600px;
+    padding:7px;
+    margin:35px;
+}
+
+.home-content h1{
+    color:orangered;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.home-content h2{
+    color:azure;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.home-content p{
+    color:azure;
+}
+.home-content button{
+    color:black;
+    background: orangered;
+    border:none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding:10px 24px;
+    margin-top:10px;
+  
+}
+.form{
+    width:350px;
+    height:450px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    left: 870px;
+    padding: 55px;
+    border-radius: 10px;
+    transform: translate(0%,-5%);
+    position: absolute;
+}
+.form h1{
+    width:220px;
+    text-align: center;
+    color:orangered;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin : 2px;
+}
+.form input{
+    width:220px;
+    
+    color:aliceblue;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.form input:focus{
+    outline: none;
+}
+
+.btnn{
+    width: 220px;
+    height: 40px;
+    cursor:pointer;
+    background: orangered;
+    border-radius: 5px;
+    padding: 5px;
+    margin : 5px;
+    text-align: center;
+    border: none;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+.form a{
+    color: #ff7200;
+}
+.form .link{
+    color: #fff;
+    text-align: center;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+.icons{
+    display:flex;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+    margin:10px;
+    padding-left:12px;
+}
+.icons a:hover{
+    color:#ff7200;
+}
